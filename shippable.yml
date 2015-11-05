@@ -8,9 +8,9 @@ services:
 
 env:
   global:
-    - APP_NAME=rocky-wave-3011
+    - APP_NAME=mongo-php
     - MONGOLAB_URI=mongodb://localhost/test
-    - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
+    - secure: Y1fFiPv7njCZgjuR/S3zYM50r2kJDdZsiXTkWc6o2Jof3zfHJ05Z0YVR81XyYGqR+GARmkzeQR5BocvVRsYsqXSIlv8C3isDNi08Thy4hACz/kUVxEA5VO2XOJ3s2NFps37Is/CTD4uSAcFgHgOmhfANXcO+kH8XykOg1tcxnn4TmxM4TDNkLFdKB68/6p3jKvdUyof2aTL5i8mVZ8cUjW0Y3Fq4XQ34zVjlgCBZJMw4Qbp7lYpU6FLJglDMNedm/HW5sa8o//2MM/UNRUBy2vghGLDdn9xSLeUpPn/add0tXs18uMa1FlSXx9aZhJQZU98oKXIoKjZtsAW/n80+bw==
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
