@@ -8,7 +8,7 @@ services:
 
 env:
   global:
-    - APP_NAME=mongo-php
+    - APP_NAME=phpmongoheroku-prod-citest2
     - MONGOLAB_URI=mongodb://localhost/test
     - secure: Y1fFiPv7njCZgjuR/S3zYM50r2kJDdZsiXTkWc6o2Jof3zfHJ05Z0YVR81XyYGqR+GARmkzeQR5BocvVRsYsqXSIlv8C3isDNi08Thy4hACz/kUVxEA5VO2XOJ3s2NFps37Is/CTD4uSAcFgHgOmhfANXcO+kH8XykOg1tcxnn4TmxM4TDNkLFdKB68/6p3jKvdUyof2aTL5i8mVZ8cUjW0Y3Fq4XQ34zVjlgCBZJMw4Qbp7lYpU6FLJglDMNedm/HW5sa8o//2MM/UNRUBy2vghGLDdn9xSLeUpPn/add0tXs18uMa1FlSXx9aZhJQZU98oKXIoKjZtsAW/n80+bw==
 
