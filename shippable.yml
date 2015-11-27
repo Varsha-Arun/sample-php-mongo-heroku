@@ -8,9 +8,9 @@ services:
 
 env:
   global:
-    - APP_NAME=phpmongoheroku-prod-citest2
+    - APP_NAME=php-mongoheroku-prod-citest2
    # - MONGOLAB_URI=mongodb://localhost/test
-    - secure: QEgxuZ/iS9QEbwrENk3JQIh8bmV29MJ0TJm83mn2nsLvfNOO/llPKbuXqVB1oJtPMUd2X3SDNjEQKXwvdzVIgaieYE+v3IITHwJwq/u/3aa/lPqWJe893d1IAKjkr310u7A9oWjfYBqlbDbLVY+566k8oGvg3rBiXYWjEKZknBSXBA40pYECRwmKPpG+1lWahTA9hESnMdw7GD20ZqPfbm2IJDWj8xnlZAjnsSPiwVyKepIkRl9zODXEKOnKdW418eUloK86kdHzWXW24vzS0TgBKjzJTfpPTPCZo1imhm7wp++7qSbILqsZS2llJ/i6ypNakjakQmHv+mYvhISd8w== 
+    - secure: lyVYVRI076rJrnyYKBc91AjWWSn2+hiZbzgVPj/Hk26IWkITBom4pO9uX4e+iqvr7IAugJBWP31yI9xC012lPBXINuifd0qycCg247rMukK9JEsmvq8DLCfY4dC+N6q7mnGAFvhO3/U1h9fQZpO8RXrnfPVrwCY4kjlbOVTdrnLkTZnoURQsGM/uZypMAJBOzwBLwSGy8z4QsdlS0W+txx01ywhFte4Qd+I45ejnaE6hwJge+u2Zah5yM23Plc+JeXx7WwFeIqf9CadWsRSOgcf/cOU9A3fk8jTs6POqZSkqMuMZLV1dX8oBCF89BLh4Kmw3JuXjsAycR3oAKsVrTg==
      
 before_install:
 #  - source ~/.rvm/scripts/rvm && rvm use 2.0.0
